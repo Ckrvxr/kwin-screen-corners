@@ -1,7 +1,5 @@
 # KWin Screen Corners
 
-[简体中文](README.zh-CN.md)
-
 A native KWin screen-corner effect for KDE Plasma 6 on Wayland.
 
 It uses OpenGL to draw black, antialiased rounded masks over the four corners of each display. It supports multiple displays, display scaling, and hot-plugging.
@@ -14,20 +12,15 @@ It uses OpenGL to draw black, antialiased rounded masks over the four corners of
 - Antialiasing
 - Multi-display and HiDPI support
 
-## Build
+## Screenshots
 
-```bash
-cmake --preset clang
-cmake --build build-clang --parallel 2
-```
+### Real-world effect
 
-## Package
+<img width="3024" height="4032" alt="Real-world effect" src="https://github.com/user-attachments/assets/8b2b7e5d-e69c-43cb-b9ad-dc2ac0e0ed70" />
 
-```bash
-dpkg-buildpackage -us -uc -b
-```
+### Configuration UI
 
-The Debian package is generated in the parent directory of the project.
+<img width="1910" height="702" alt="Configuration UI" src="https://github.com/user-attachments/assets/cf197ef4-a699-422d-bbee-13c5dbddfc74" />
 
 ## Install
 
@@ -43,19 +36,13 @@ System Settings → Window Management → Desktop Effects → KWin Screen Corner
 
 Enable and configure the effect there.
 
-## Screenshots
+## Build and Package
 
-### Configuration UI
-
-![Configuration UI](docs/images/configuration-placeholder.png)
-
-> Placeholder: add a screenshot of the configuration UI here.
-
-### Real-world effect
-
-![Real-world effect](docs/images/effect-photo-placeholder.png)
-
-> Placeholder: add a photo of the effect on the desktop here.
+```bash
+cmake --preset clang
+cmake --build build-clang --parallel 2
+dpkg-buildpackage -us -uc -b
+```
 
 ## License
 
