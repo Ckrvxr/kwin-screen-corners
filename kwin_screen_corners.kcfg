@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile arg="true" />
+    <group name="Effect-kwin-screen-corners">
+        <entry name="Radius" type="Int">
+            <label>Corner radius</label>
+            <default>24</default>
+            <min>1</min>
+            <max>512</max>
+        </entry>
+        <entry name="TopLeft" type="Bool">
+            <label>Top-left corner</label>
+            <default>true</default>
+        </entry>
+        <entry name="TopRight" type="Bool">
+            <label>Top-right corner</label>
+            <default>true</default>
+        </entry>
+        <entry name="BottomLeft" type="Bool">
+            <label>Bottom-left corner</label>
+            <default>true</default>
+        </entry>
+        <entry name="BottomRight" type="Bool">
+            <label>Bottom-right corner</label>
+            <default>true</default>
+        </entry>
+        <entry name="Antialiasing" type="Bool">
+            <label>Antialiasing</label>
+            <default>true</default>
+        </entry>
+    </group>
+</kcfg>

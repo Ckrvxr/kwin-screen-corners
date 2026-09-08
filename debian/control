@@ -1,0 +1,17 @@
+Source: kwin-screen-corners
+Section: kde
+Priority: optional
+Maintainer: Screen Corners contributors <noreply@example.invalid>
+Build-Depends: debhelper-compat (= 13), clang (>= 1:19~), cmake (>= 3.28), ninja-build, extra-cmake-modules (>= 6.13), libkf6config-dev (>= 6.13), libkf6coreaddons-dev (>= 6.13), libkf6i18n-dev (>= 6.13), libkf6kcmutils-dev (>= 6.13), kwin-dev (>= 4:6.3.6), libepoxy-dev, qt6-base-dev (>= 6.8)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: kwin-screen-corners
+Architecture: any
+Depends: kwin-wayland (>= 4:6.3.6), ${shlibs:Depends}, ${misc:Depends}
+Conflicts: screen-corners
+Replaces: screen-corners (<< 0.1.11-1)
+Description: rounded screen corners KWin effect for Plasma Wayland
+ A KWin desktop effect that masks the four corners of each output with a
+ configurable black rounded overlay. It includes a configuration module for
+ Plasma's Desktop Effects settings.

@@ -1,0 +1,5 @@
+File=kwin_screen_corners.kcfg
+ClassName=KWinScreenCornersConfigData
+NameSpace=KWinScreenCorners
+Singleton=true
+Mutators=true

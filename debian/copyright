@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kwin-screen-corners
+Source: local
+
+Files: *
+Copyright: 2024 Screen Corners contributors
+License: GPL-2+
+ This project is licensed under the GNU General Public License, version 2
+ or any later version.

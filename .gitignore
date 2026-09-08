@@ -1,0 +1,38 @@
+# CMake build trees and generated files
+/build/
+/build-clang/
+/build-*/
+/obj-*/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/CTestTestfile.cmake
+/CTestCostData.txt
+/Makefile
+/ninja.build
+/.ninja_*
+/compile_commands.json
+
+
+# Debian packaging output and debhelper state
+/debian/.debhelper/
+/debian/kwin-screen-corners/
+/debian/debhelper-build-stamp
+/debian/files
+/debian/*.substvars
+*.deb
+*.changes
+*.buildinfo
+*.dsc
+
+# Local staging/install trees
+/stage/
+/out/
+
+# IDE and editor files
+/.cache/
+/.clangd/
+/.vscode/
+/.idea/
+*.swp
+*~

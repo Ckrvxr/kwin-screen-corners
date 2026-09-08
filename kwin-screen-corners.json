@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Name": "KWin Screen Corners",
+        "Name[zh_CN]": "KWin 屏幕圆角",
+        "Description": "Mask the four corners of each screen with a configurable black rounded overlay in KWin",
+        "Description[zh_CN]": "使用可配置的黑色圆角遮罩覆盖每个显示器的四个角",
+        "Category": "Appearance",
+        "Icon": "preferences-desktop-display",
+        "License": "GPL-2.0-or-later",
+        "EnabledByDefault": false,
+        "Authors": [
+            {
+                "Name": "KWin Screen Corners contributors"
+            }
+        ]
+    },
+    "X-KDE-ConfigModule": "kwin_screen_corners_config"
+}

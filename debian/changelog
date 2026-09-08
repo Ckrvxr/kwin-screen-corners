@@ -1,0 +1,72 @@
+kwin-screen-corners (0.1.11-1) unstable; urgency=medium
+
+  * Pass the Debian host target triple to Clang for cross builds.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Thu, 11 Jan 2024 00:00:00 +0000
+
+kwin-screen-corners (0.1.10-1) unstable; urgency=medium
+
+  * Use architecture-specific Debian build directories.
+  * Prepare the rules for amd64 and arm64 cross builds.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Wed, 10 Jan 2024 00:00:00 +0000
+
+kwin-screen-corners (0.1.9-1) unstable; urgency=medium
+
+  * Use Release/O3 optimization and interprocedural optimization (LTO).
+  * Keep the optimized build portable by avoiding -march=native.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Tue, 09 Jan 2024 00:00:00 +0000
+
+kwin-screen-corners (0.1.8-1) unstable; urgency=medium
+
+  * Emit DWARF4 debug information for compatibility with Debian dwz.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Mon, 08 Jan 2024 00:00:00 +0000
+
+kwin-screen-corners (0.1.7-1) unstable; urgency=medium
+
+  * Build the project and Debian package with Clang.
+  * Add a CMake Clang preset for local development.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Sun, 07 Jan 2024 00:00:00 +0000
+
+kwin-screen-corners (0.1.6-1) unstable; urgency=medium
+
+  * Rename all project source files, symbols, and the KWin effect ID.
+  * Rename the project directory to kwin-screen-corners.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Sat, 06 Jan 2024 00:00:00 +0000
+
+kwin-screen-corners (0.1.5-1) unstable; urgency=medium
+
+  * Declare replacement of the former screen-corners package.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Fri, 05 Jan 2024 00:00:00 +0000
+
+kwin-screen-corners (0.1.4-1) unstable; urgency=medium
+
+  * Rename the Debian package and project to kwin-screen-corners.
+  * Keep the KWin effect ID screen-corners for configuration compatibility.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Thu, 04 Jan 2024 00:00:00 +0000
+
+screen-corners (0.1.3-1) unstable; urgency=medium
+
+  * Interpret corner radius as physical pixels regardless of output scaling.
+  * Clarify radius units in the configuration UI and test fixed pixel samples.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Wed, 03 Jan 2024 00:00:00 +0000
+
+screen-corners (0.1.2-1) unstable; urgency=medium
+
+  * Convert logical vertices to device pixels before viewport projection.
+  * Add scaled-output and offset-output OpenGL pixel regression checks.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Tue, 02 Jan 2024 00:00:00 +0000
+
+screen-corners (0.1.1-1) unstable; urgency=medium
+
+  * Fix OpenGL shader version declaration for KWin's desktop GL context.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Mon, 01 Jan 2024 00:00:00 +0000
