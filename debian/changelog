@@ -1,3 +1,10 @@
+kwin-screen-corners (0.1.12-1) unstable; urgency=medium
+
+  * Change the project license to AGPL-3-or-later.
+  * Add English and Simplified Chinese README documentation.
+
+ -- Screen Corners contributors <noreply@example.invalid>  Fri, 12 Jan 2024 00:00:00 +0000
+
 kwin-screen-corners (0.1.11-1) unstable; urgency=medium
 
   * Pass the Debian host target triple to Clang for cross builds.

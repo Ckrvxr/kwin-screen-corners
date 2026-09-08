@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 // Run with the effect source path as argv[1]. Tests the actual embedded shaders.
 #include <QGuiApplication>
 #include <QOffscreenSurface>

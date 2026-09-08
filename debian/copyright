@@ -4,6 +4,6 @@ Source: local
 
 Files: *
 Copyright: 2024 Screen Corners contributors
-License: GPL-2+
- This project is licensed under the GNU General Public License, version 2
+License: AGPL-3+
+ This project is licensed under the GNU Affero General Public License, version 3
  or any later version.

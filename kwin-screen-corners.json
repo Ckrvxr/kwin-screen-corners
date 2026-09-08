@@ -6,7 +6,7 @@
         "Description[zh_CN]": "使用可配置的黑色圆角遮罩覆盖每个显示器的四个角",
         "Category": "Appearance",
         "Icon": "preferences-desktop-display",
-        "License": "GPL-2.0-or-later",
+        "License": "AGPL-3.0-or-later",
         "EnabledByDefault": false,
         "Authors": [
             {

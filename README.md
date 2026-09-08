@@ -1,60 +1,62 @@
 # KWin Screen Corners
 
-一个面向 KDE Plasma 6 的原生 KWin 屏幕圆角特效插件。
+[简体中文](README.zh-CN.md)
 
-它使用 OpenGL 在每个显示器的四角绘制黑色抗锯齿圆角遮罩，支持多显示器、显示缩放和热插拔。
+A native KWin screen-corner effect for KDE Plasma 6 on Wayland.
 
-## 功能
+It uses OpenGL to draw black, antialiased rounded masks over the four corners of each display. It supports multiple displays, display scaling, and hot-plugging.
+
+## Features
 
 - KDE Plasma 6 / KWin Wayland
-- 可配置圆角半径
-- 四角独立开关
-- 抗锯齿
-- 支持多显示器和 HiDPI 缩放
+- Configurable corner radius
+- Independent corner switches
+- Antialiasing
+- Multi-display and HiDPI support
 
-## 构建
+## Build
 
 ```bash
 cmake --preset clang
 cmake --build build-clang --parallel 2
 ```
 
-## 打包
+## Package
 
 ```bash
 dpkg-buildpackage -us -uc -b
 ```
 
-生成的 Debian 软件包位于项目目录的上一级目录。
+The Debian package is generated in the parent directory of the project.
 
-## 安装
+## Install
 
 ```bash
 sudo apt install ./kwin-screen-corners_*.deb
 ```
 
-安装后，在：
+Then open:
 
 ```text
-系统设置 → 窗口管理 → 桌面特效 → KWin Screen Corners
+System Settings → Window Management → Desktop Effects → KWin Screen Corners
 ```
 
-启用并配置特效。
+Enable and configure the effect there.
 
-## 效果预览
+## Screenshots
 
-### 配置界面
+### Configuration UI
 
-![配置界面](docs/images/configuration-placeholder.png)
+![Configuration UI](docs/images/configuration-placeholder.png)
 
-> 图片占位符：待补充配置界面截图。
+> Placeholder: add a screenshot of the configuration UI here.
 
-### 实拍效果
+### Real-world effect
 
-![实拍效果](docs/images/effect-photo-placeholder.png)
+![Real-world effect](docs/images/effect-photo-placeholder.png)
 
-> 图片占位符：待补充实际桌面效果照片。
+> Placeholder: add a photo of the effect on the desktop here.
 
-## 许可证
+## License
 
-[GPL-2.0-or-later](LICENSE)
+[GNU Affero General Public License v3.0 or later](LICENSE)
