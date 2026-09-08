@@ -12,11 +12,11 @@ It uses OpenGL to draw black, antialiased rounded masks over the four corners of
 - Antialiasing
 - Multi-display and HiDPI support
 
-## Screenshots
+## Pictures
 
 ### Real-world effect
 
-<img width="3024" height="4032" alt="Real-world effect" src="https://github.com/user-attachments/assets/8b2b7e5d-e69c-43cb-b9ad-dc2ac0e0ed70" />
+<img width="2320" height="1481" alt="Real-world effect" src="https://github.com/user-attachments/assets/93db5d64-84c8-4a0e-ad17-461e952d1825" />
 
 ### Configuration UI
 
